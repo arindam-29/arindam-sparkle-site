@@ -57,13 +57,6 @@ export const Navigation = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300" />
               </button>
             ))}
-            <Button 
-              size="sm" 
-              className="ml-4 glow-primary"
-              onClick={() => scrollToSection("#contact")}
-            >
-              Hire Me
-            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -90,12 +83,6 @@ export const Navigation = () => {
                   {item.label}
                 </button>
               ))}
-              <Button 
-                className="mt-4 glow-primary"
-                onClick={() => scrollToSection("#contact")}
-              >
-                Hire Me
-              </Button>
             </div>
           </div>
         )}
